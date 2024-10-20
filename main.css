@@ -31,6 +31,8 @@ html {
 
 .nav-bar {
   display: none;
+  justify-content: center;
+  background-color: #011827;
 }
 
 .main {
@@ -63,6 +65,10 @@ html {
   text-decoration: none;
 }
 
+.nav-bar__link:hover {
+  color: #8ACFE5;
+}
+
 .challenge-links {
   display: flex;
   flex-direction: column;
@@ -71,7 +77,7 @@ html {
 
 .challenge-links__link--on-site {
   background-color: #8ACFE5;
-  color: black;
+  color: #011827;
 }
 
 .challenge-links__link--online {
@@ -226,8 +232,7 @@ html {
 }
 
 .play-options__content {
-  margin: auto;
-  margin-top: 2rem;
+  margin: 2rem 1rem 5rem 1rem;
 }
 
 .play-options__image-1,
@@ -251,10 +256,7 @@ html {
 
 .play-options__link--book-on-site,
 .play-options__link--see-all-challenges {
-  margin-bottom: 4rem;
   background-color: #E3170A;
-  color: white;
-
 }
 
 .footer {
@@ -309,8 +311,6 @@ html {
 
   .nav-bar {
     display: flex;
-    justify-content: center;
-    background-color: #011827;
   }
 
   .nav-bar__link {
@@ -362,6 +362,7 @@ html {
   .play-options__content {
     max-width: 26rem;
     padding: 1.5rem 0;
+    margin: 2rem auto;
   }
 
   .play-options__image-1 {
@@ -387,7 +388,7 @@ html {
   }
 
   .footer__company-info {
-    width: 416px;
+    width: 26rem;
   }
 }
 
@@ -400,15 +401,25 @@ html {
   }
 
   .main__image {
-    display: block;
     object-fit: cover;
     height: 30vh;
   }
 
   .nav-bar {
     display: flex;
-    justify-content: center;
-    background-color: #011827;
+  }
+
+  .challenge-links__link--online {
+    background-color: #E3170A;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  .challenge-links {
+    flex-direction: row-reverse;
+    gap: 1rem;
+    max-width: 100%;:
   }
 
   .nav-bar__link {
