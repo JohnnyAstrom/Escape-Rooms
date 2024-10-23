@@ -40,5 +40,7 @@ När jag var nöjd med den inledande delen av projektet började jag utforska Sa
 **Sass-förbättringar**
 
 **Variabler:** Jag bytte ut mina färgkoder mot Sass-variabler, vilket förenklade framtida underhåll av koden.
+
 **Nesting:** Jag implementerade nesting för att skapa en mer strukturerad och överskådlig CSS. Dessutom använde jag nesting även för media queries, vilket gav mig ännu bättre kontroll över projektets responsiva design.
-Den här inlämningen har hjälpt mig att både förstå grundläggande CSS och upptäcka fördelarna med att använda mer avancerade verktyg som Sass.
+
+**Den här inlämningen har hjälpt mig att både förstå grundläggande CSS och upptäcka fördelarna med att använda mer avancerade verktyg som Sass.**
