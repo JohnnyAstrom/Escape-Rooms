@@ -12,7 +12,6 @@ Designmaterialet finns tillgängligt via Figma: [Figma-länk.](https://www.figma
 
 **Min Implementation: Escape Rooms**
 
-Semantiska HTML-element
 I mitt projekt valde jag att använda semantiska HTML-element för att skapa en tydligare struktur på sidan och förbättra tillgängligheten för alla användare. Jag fokuserade på att hålla HTML-strukturen enkel och tydlig för att underlätta framtida utveckling.
 
 För att organisera och underhålla min CSS använde jag BEM-metoden (Block Element Modifier). Detta hjälpte mig att strukturera klasserna logiskt och effektivt.
