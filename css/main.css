@@ -17,6 +17,7 @@ html {
   width: 100%;
   height: 9rem;
   background-color: #011827;
+  margin-top: -0.5rem;
 }
 .header__logo {
   width: 8rem;
@@ -44,25 +45,92 @@ html {
     margin-bottom: 0;
   }
 }
+.header__mobile-menu-container {
+  margin-left: auto;
+  margin-right: 1rem;
+  margin-bottom: 2.5rem;
+}
+.header__mobile-menu-button {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .header__mobile-menu-button {
+    display: none;
+  }
+}
+.header__mobile-menu {
+  display: flex;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  background: #011827;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.1s, transform 0.1s;
+}
+.header__mobile-menu-active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+.header__mobile-close-menu {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header__mobile-menu-background-dimmed {
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.header__mobile-menu-background-dimmed-active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  opacity: 1;
+}
+.header__mobile-link {
+  display: flex;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 1rem 0rem;
+  padding: 1.5rem 0rem;
+  text-decoration: none;
+}
+.header__mobile-link:hover {
+  color: #8ACFE5;
+}
 
-.nav-bar {
+.desktop-nav-bar {
   display: none;
   justify-content: center;
   background-color: #011827;
 }
-.nav-bar__link:hover {
+.desktop-nav-bar__link:hover {
   color: #8ACFE5;
 }
 @media (min-width: 600px) {
-  .nav-bar {
+  .desktop-nav-bar {
     display: flex;
-  }
-  .nav-bar__link {
-    color: #FFFFFF;
-    border: none;
-    width: 18%;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 }
 
