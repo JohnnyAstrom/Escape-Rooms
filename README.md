@@ -52,7 +52,7 @@ The design is available in the same Figma project as the previous task, and the 
 
 **My Implementation: JavaScript Course**
 
-I chose to create a separate menu specifically for mobile devices (max-width 599px). After downloading the required images from Figma, I started by adding the necessary HTML elements for the mobile menu. Next, I set up event listeners for the menu button and the close button in a new JavaScript file. With those in place, I moved on to styling the mobile menu and its content. Finally, I added transitions and transforms to make it look similar to the video file provided by our instructor.
+After downloading the required images from Figma, I started by adding the necessary HTML elements for the mobile menu. Next, I set up event listeners for the menu button and the close button in a new JavaScript file. With those in place, I moved on to styling the mobile menu and its content. Finally, I added transitions and transforms to make it look similar to the video file provided by our instructor.
 
 **Some Thoughts So Far**
 
